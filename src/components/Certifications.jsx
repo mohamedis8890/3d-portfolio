@@ -68,4 +68,4 @@ const Certification = () => {
   );
 };
 
-export default SectionWrapper(Certification, "work");
+export default SectionWrapper(Certification, "");

@@ -76,7 +76,7 @@ const Works = () => {
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="mt-3 text-secondary  text-[17px] max-w-3xl leading-[3px]"
+          className="mt-3 text-secondary  text-[17px] max-w-3xl"
         >
           Here are 3 of the most exciting projects I have created.
         </motion.p>
@@ -90,4 +90,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "work");
