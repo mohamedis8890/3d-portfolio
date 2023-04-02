@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import link from "./link.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -29,9 +30,9 @@ import svu from "./company/svu.jpeg";
 import google from "./company/google.png";
 import freecodecamp from "./company/freecodecamp.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import relator from "./relator.png";
+import firegram from "./firegram.png";
+import weather from "./weather.png";
 
 export {
   logo,
@@ -62,7 +63,8 @@ export {
   svu,
   google,
   freecodecamp,
-  carrent,
-  jobit,
-  tripguide,
+  link,
+  relator,
+  firegram,
+  weather,
 };

@@ -3,10 +3,6 @@ import {
   backend,
   creator,
   web,
-  javascript,
-  typescript,
-  html,
-  css,
   reactjs,
   redux,
   tailwind,
@@ -22,10 +18,10 @@ import {
   aws,
   google,
   freecodecamp,
-  carrent,
-  jobit,
-  tripguide,
+  firegram,
+  weather,
   nextjs,
+  relator,
 } from "../assets";
 
 export const navLinks = [
@@ -63,22 +59,6 @@ const services = [
 ];
 
 const technologies = [
-  /*{
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },*/
   {
     name: "React JS",
     icon: reactjs,
@@ -234,67 +214,70 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Relator",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Realestate listing web app that can search for rent and sale realestate and display all of its features and sale/rent price.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "text-slate-400",
+      },
+      {
+        name: "chakraui",
+        color: "text-teal-500",
+      },
+      {
+        name: "rapidapi",
+        color: "text-blue-400",
+      },
+    ],
+    image: relator,
+    source_code_link: "https://github.com/mohamedis8890/realstate",
+    demo_link: "https://realstate-nine.vercel.app/",
+  },
+  {
+    name: "FireGram",
+    description:
+      "A serverless photo gallery that supports uploading photos and persisting them on Google's Firebase & Firestore, comming soon: authentication & authorization, so that users can upload their own photos and control their visiblity to the public.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: "firebase",
+        color: "text-yellow-400",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: firegram,
+    source_code_link: "https://github.com/mohamedis8890/firegram",
+    demo_link: "https://firegram-kappa.vercel.app/",
   },
   {
-    name: "Job IT",
+    name: "Weather Anywhere",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A weather app that utilizes Google's Places API to display weather data and a photo of any place around the world and can locate user's location and display it's data. For deployment, this app has a CI/CD cylcle implemented with Github Actions.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
+        name: "google_places_api",
+        color: "text-blue-600",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
+        name: "styled_components",
+        color: "text-pink-400",
+      },
+      {
+        name: "github_actions",
+        color: "text-zinc-200",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: weather,
+    source_code_link: "https://github.com/mohamedis8890/react-weather",
+    demo_link: "https://mohamedis8890.github.io/react-weather/",
   },
 ];
 
